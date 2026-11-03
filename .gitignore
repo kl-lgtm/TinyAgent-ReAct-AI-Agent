@@ -1,0 +1,13 @@
+# 私密配置
+.env
+.env.*
+!.env.example
+
+# Python 缓存和虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 日志
+*.log
