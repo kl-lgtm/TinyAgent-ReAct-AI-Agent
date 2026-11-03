@@ -51,7 +51,7 @@ TinyAgent/
 ### 1. 获取代码
 
 ```powershell
-git clone https://github.com/k1-lgtm/TinyAgent-ReAct-AI-Agent.git
+git clone https://github.com/kl-lgtm/TinyAgent-ReAct-AI-Agent.git
 cd TinyAgent-ReAct-AI-Agent
 ```
 
@@ -64,10 +64,9 @@ cd TinyAgent-ReAct-AI-Agent
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m pip install ddgs
 ```
 
-`tool.py` 的首选搜索方案实际导入的是 `ddgs`；当前依赖文件列出的是 `duckduckgo_search`，因此需要额外安装 `ddgs`。如果首选方案不可用，程序会尝试其他搜索方式。
+`tool.py` 的首选搜索方案使用 `ddgs`，已包含在依赖文件中。如果首选方案不可用，程序会尝试其他搜索方式。
 
 ### 3. 配置密钥
 
